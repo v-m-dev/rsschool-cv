@@ -23,7 +23,7 @@ I am a highly motivated individual with a strong passion for technology and a ke
 
 ```javascript
 function evenOrOdd(number) {
-  return number % 2 === 0 ? "Even" : "Odd";
+  return number % 2 === 0 ? "Even": "Odd";
 }
 ```
 
