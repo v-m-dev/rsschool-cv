@@ -9,9 +9,11 @@
   <body>
     <header>
       <div class="photo-container">
-        <img src="./photo.jpeg" alt="" srcset="" width="300" />
-        <h1>MOROZ VITALII</h1>
-        <h2>Front-end developer</h2>
+        <img src="./photo.jpeg" alt="Photo" />
+        <div class="applicant">
+          <h1 class="name">MOROZ VITALII</h1>
+          <h3 class="title">Front-end developer</h3>
+        </div>
       </div>
     </header>
     <main>
@@ -21,8 +23,10 @@
         <ul class="contacts-list">
           <li class="contact-li"><b>Location: </b>Kyiv, Ukraine</li>
           <li class="contact-li"><b>Phone: </b>+80937669432</li>
-          <li class="contact-li"><b>Email: </b>mvdevexample@gmail.com</li>
-          <li class="contact-li"><b>GitHub: </b>v-m-dev</li>
+          <li class="contact-li"><b>Email: </b>mvdev@gmail.com</li>
+          <li class="contact-li">
+            <b>GitHub: </b><a href="https://github.com/v-m-dev">v-m-dev</a>
+          </li>
         </ul>
       </section>
       <!-- contacts end -->
@@ -30,7 +34,7 @@
       <!-- summary start -->
       <section class="summary-container">
         <h2 class="summary-header">About me</h2>
-        <p>
+        <p class="summary">
           I am a highly motivated individual with a strong passion for
           technology and a keen interest in web development. With excellent
           interpersonal skills, I thrive as a team player and am always eager to
@@ -102,14 +106,12 @@
       <!-- code start -->
       <section class="code-container">
         <h2 class="code-header">Code Example</h2>
-        <code>
-          <pre>
-        function evenOrOdd(number) {
+
+        <pre><code>
+function evenOrOdd(number) {
     return number % 2 === 0 ? "Even": "Odd";
-    }
-        </pre
-          >
-        </code>
+}</code>
+        </pre>
       </section>
       <!-- code end -->
 
@@ -165,5 +167,6 @@
         </ul>
       </section>
     </main>
+    <footer></footer>
   </body>
 </html>
