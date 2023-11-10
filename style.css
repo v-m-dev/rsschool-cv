@@ -23,6 +23,7 @@ body {
   padding-block: 1rem;
   background-color: var(--clr-white);
   width: 60%;
+  max-width: 600px;
 }
 
 img {
